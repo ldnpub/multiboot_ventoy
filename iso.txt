@@ -1,0 +1,14 @@
+archlinux-2020.05.01-x86_64.iso
+arcolinux-v20.3.4.iso
+boot-repair-disk-64bit.iso
+kali-linux-2020.1b-live-amd64.iso
+kubuntu-20.04-desktop-amd64.iso
+lubuntu-20.04-desktop-amd64.iso
+Lubuntu-32-Bits.iso
+Parrot-security-4.9_x64.iso
+rescatux-0.73.iso
+super_grub2_disk_hybrid_2.04s1.iso
+ubuntu-20.04-desktop-amd64.iso
+ubuntu-20.04-live-server-amd64.iso
+ubuntu-mate-20.04-desktop-amd64.iso
+xubuntu-20.04-desktop-amd64.iso
