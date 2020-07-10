@@ -1,0 +1,152 @@
+{
+    "control": [
+        { "VTOY_DEFAULT_SEARCH_ROOT": "/ISO" },
+        { "VTOY_MENU_TIMEOUT": "60" },
+        { "VTOY_DEFAULT_IMAGE": "/ISO/xubuntu-20.04-desktop-amd64.iso" }
+    ],
+
+    "theme": {
+        "file": "/ventoy/theme/vimix/theme.txt",
+        "gfxmode": "1024x768",
+        "display_mode": "GUI",
+        "fonts": [
+            "/ventoy/theme/vimix/terminus-12.pf2",
+            "/ventoy/theme/vimix/terminus-14.pf2",
+            "/ventoy/theme/vimix/terminus-16.pf2",
+            "/ventoy/theme/vimix/terminus-18.pf2",
+            "/ventoy/theme/vimix/dejavu_sans_12.pf2",
+            "/ventoy/theme/vimix/dejavu_sans_14.pf2",
+            "/ventoy/theme/vimix/dejavu_sans_16.pf2",
+            "/ventoy/theme/vimix/dejavu_sans_24.pf2",
+            "/ventoy/theme/vimix/dejavu_sans_48.pf2",
+            "/ventoy/theme/vimix/dejavu_32.pf2"
+        ]
+        },
+
+    "persistence": [
+        {
+            "image": "/ISO/ubuntu-20.04-desktop-amd64.iso",
+            "backend": [
+                "/persistence/ubuntu_20.04.img"
+            ]
+        },
+        {
+            "image": "/ISO/xubuntu-20.04-desktop-amd64.iso",
+            "backend": [
+                "/persistence/ubuntu_20.04.img"
+            ]
+        }
+    ],
+
+
+
+    "menu_alias" : [
+        {
+            "image": "/ISO/xubuntu-20.04-desktop-amd64.iso",
+            "alias": "Xubuntu 20.04"
+        },
+        {
+            "image": "/ISO/ubuntu-mate-20.04-desktop-amd64.iso",
+            "alias": "Ubuntu MATE 20.04"
+        },
+        {
+            "image": "/ISO/ubuntu-20.04-desktop-amd64.iso",
+            "alias": "Ubuntu 20.04"
+        },
+        {
+            "image": "/ISO/archlinux-2020.05.01-x86_64.iso",
+            "alias": "Archlinux"
+        },
+        {
+            "image": "/ISO/arcolinux-v20.3.4.iso",
+            "alias": "Arcolinux"
+        },
+        {
+            "image": "/ISO/boot-repair-disk-64bit.iso",
+            "alias": "Boot Repair"
+        },
+        {
+            "image": "/ISO/kali-linux-2020.1b-live-amd64.iso",
+            "alias": "Kali"
+        },
+        {
+            "image": "/ISO/kubuntu-20.04-desktop-amd64.iso",
+            "alias": "Kubuntu 20.04"
+        },
+        {
+            "image": "/ISO/lubuntu-20.04-desktop-amd64.iso",
+            "alias": "Lubuntu 20.04"
+        },
+        {
+            "image": "/ISO/Lubuntu-32-Bits.iso",
+            "alias": "Lubuntu 18.04"
+        },
+        {
+            "image": "/ISO/Parrot-security-4.9_x64.iso",
+            "alias": "Parrot Security"
+        },
+        {
+            "image": "/ISO/rescatux-0.73.iso",
+            "alias": "Rescatux"
+        },
+        {
+            "image": "/ISO/super_grub2_disk_hybrid_2.04s1.iso",
+            "alias": "Super Grub 2"
+        },
+        {
+            "image": "/ISO/Parrot-security-4.9_x64.iso",
+            "alias": "Parrot Security"
+        },
+        {
+            "image": "/ISO/ubuntu-20.04-desktop-amd64.iso",
+            "alias": "Ubuntu 20.04"
+        }
+    ],
+
+    "menu_class" : [
+        {
+            "key": "archlinux",
+            "class": "arch"
+        },
+        {
+            "key": "arcolinux",
+            "class": "arcolinux"
+        },
+        {
+            "key": "boot-repair",
+            "class": "driver"
+        },
+        {
+            "key": "kali",
+            "class": "kali"
+        },
+        {
+            "key": "Parrot",
+            "class": "kaos"
+        },
+        {
+            "key": "rescatux",
+            "class": "efi"
+        },
+        {
+            "key": "super_grub",
+            "class": "efi"
+        },
+        {
+            "key": "xubuntu",
+            "class": "xubuntu"
+        },
+        {
+            "key": "kubuntu",
+            "class": "kubuntu"
+        },
+        {
+            "key": "lubuntu",
+            "class": "lubuntu"
+        },
+        {
+            "key": "ubuntu",
+            "class": "ubuntu"
+        }
+    ]
+}
