@@ -7,7 +7,7 @@
 
     "theme": {
         "file": "/ventoy/theme/vimix/theme.txt",
-        "gfxmode": "1920x1080",
+        "gfxmode": "1024x768",
         "display_mode": "GUI",
         "fonts": [
             "/ventoy/theme/vimix/terminus-12.pf2",
@@ -23,6 +23,23 @@
         ]
         },
 
+    "persistence": [
+        {
+            "image": "/ISO/ubuntu-20.04-desktop-amd64.iso",
+            "backend": [
+                "/persistence/ubuntu_20.04.img"
+            ]
+        },
+        {
+            "image": "/ISO/xubuntu-20.04-desktop-amd64.iso",
+            "backend": [
+                "/persistence/ubuntu_20.04.img"
+            ]
+        }
+    ],
+
+
+
     "menu_alias" : [
         {
             "image": "/ISO/xubuntu-20.04-desktop-amd64.iso",
@@ -31,7 +48,7 @@
         {
             "image": "/ISO/ubuntu-mate-20.04-desktop-amd64.iso",
             "alias": "Ubuntu MATE 20.04"
-        },        
+        },
         {
             "image": "/ISO/ubuntu-20.04-desktop-amd64.iso",
             "alias": "Ubuntu 20.04"
@@ -39,7 +56,7 @@
         {
             "image": "/ISO/archlinux-2020.05.01-x86_64.iso",
             "alias": "Archlinux"
-        },   
+        },
         {
             "image": "/ISO/arcolinux-v20.3.4.iso",
             "alias": "Arcolinux"
