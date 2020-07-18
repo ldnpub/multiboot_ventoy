@@ -15,13 +15,16 @@ LUKS_PARTITION=`lsblk -f | grep crypto_LUKS | awk '{print $3}'| grep 85`
 #PROFILE=rodolphe
 
 if [ $USER != root ]; then
-	echo "Ce scrypt necessite les droits ROOT"
+	echo -e "\e[1mCe scrypt necessite les droits ROOT \e[0m"
 	exit 1
 fi
 
 # cryptsetup luksChangeKey /dev/sdaX
-echo "
-Nous allons configurer l'utilisation de la partition chiffree [LUKS]"
+echo -e "\e[1m
+***********************************************************
+Nous allons configurer l'utilisation de la partition chiffree [LUKS]
+\e[0m
+"
 
 cryptsetup luksOpen UUID=$LUKS_PARTITION HOME
 
@@ -31,8 +34,8 @@ LUKS_PERSISTENCY=`lsblk -f | grep luks_ventoy | awk '{print $4}'`
 mount UUID=$LUKS_PERSISTENCY /home/
 
 
-echo "
-#################################################
-#  Vous pouvez vous connecter avec votre compte #
-#################################################
-"
+echo -e "\e[32m
+***********************************************************
+*      Vous pouvez vous connecter avec votre compte       *
+***********************************************************
+\e[0m"
