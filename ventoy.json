@@ -100,6 +100,10 @@
         {
             "image": "/ISO/ubuntu-20.04-desktop-amd64.iso",
             "alias": "Ubuntu 20.04"
+        },
+        {
+            "dir": "/ISO/Linux",
+            "alias": "[Other Linux]"
         }
     ],
 
